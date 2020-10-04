@@ -30,6 +30,9 @@
 - [ ] Disabled when text no need edition
 - [ ] Settings popup
 
+## Known Issues
+- Extension Warning Popup on Windows ([Solution](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher))
+
 ## Contributing
 
 Thank you for your interest in contributing! Please feel free to put up a PR for any issue or feature request.
