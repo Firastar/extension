@@ -19,12 +19,13 @@
 
 ## Installation
 
-1. [Download]() latest release
+1. [Download](https://github.com/Firastar/firastar-chrome-extension/releases) latest release bundle
 2. Open chrome and activate the developer mode from `chrome://extensions/`
-3. Click on `Pack extension` button and choose the address of extension root directory.
+3. Click on `Load unpacked` button and choose the address of extension root directory.
 
 ## Todo
 
+- [ ] Release on Chrome Web Store 
 - [ ] Disabled when text is not Persian
 - [ ] Disabled when text no need edition
 - [ ] Settings popup
