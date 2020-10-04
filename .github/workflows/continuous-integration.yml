@@ -54,4 +54,5 @@ jobs:
       with:
         name: firast-chrome-extension
         path: |
-          firastar-chrome-extension.crx
+          dist
+          !*.map

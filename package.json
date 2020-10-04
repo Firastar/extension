@@ -28,7 +28,7 @@
         "start": "webpack --watch",
         "build": "webpack",
         "test": "jest",
-        "pack": "cd dist && crx pack -p ../key.pem -o ../firastar-chrome-extension.crx",
+        "pack": "cd dist && crx pack -p ./key.pem -o ./firastar-chrome-extension.crx",
         "lint": "eslint \"src/**/*.{js,json}\" --max-warnings=0",
         "lint:fix": "npm run lint -- --fix"
     },
