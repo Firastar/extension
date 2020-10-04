@@ -37,6 +37,10 @@ module.exports = {
               source: 'images',
               destination: path.join(__dirname, 'dist/images'),
             },
+            {
+              source: 'plugins',
+              destination: path.join(__dirname, 'dist/plugins'),
+            },
           ],
         },
       ],
