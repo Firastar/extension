@@ -8,7 +8,7 @@
 
 ![CI/CD](https://github.com/Firastar/firastar-chrome-extension/workflows/Continuous%20Integration/badge.svg)
 [![codecov](https://codecov.io/gh/Firastar/firastar-chrome-extension/branch/master/graph/badge.svg)](https://codecov.io/gh/Firastar/firastar-chrome-extension)
-[![CodeFactor](https://www.codefactor.io/repository/github/Firastar/firastar-chrome-extension/badge)](https://www.codefactor.io/repository/github/Firastar/firastar-js)
+[![CodeFactor](https://www.codefactor.io/repository/github/Firastar/firastar-chrome-extension/badge)](https://www.codefactor.io/repository/github/Firastar/firastar-chrome-extension)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Firastar/firastar-chrome-extension/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/Firastar/firastar-chrome-extension/compare) 
 
