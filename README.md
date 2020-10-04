@@ -12,6 +12,8 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Firastar/firastar-chrome-extension/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/Firastar/firastar-chrome-extension/compare) 
 
+<img align="center" src="./images/demo.gif" />
+
 </div>
 <hr />
 

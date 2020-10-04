@@ -46,12 +46,12 @@ jobs:
     - name: Build
       run: npm run build
 
+    - name: Pack
+      run: npm run pack
+
     - name: Archive production
       uses: actions/upload-artifact@v2
       with:
         name: firast-chrome-extension
         path: |
-          dist
-          !dist/**/*.map
-          manifest.json
-          images
+          firastar-chrome-extension.crx
