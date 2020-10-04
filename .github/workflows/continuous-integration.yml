@@ -49,8 +49,9 @@ jobs:
     - name: Archive production
       uses: actions/upload-artifact@v2
       with:
-        name: dist
+        name: firast-chrome-extension
         path: |
           dist
-          !dist/**/*.md
+          !dist/**/*.map
           manifest.json
+          images
