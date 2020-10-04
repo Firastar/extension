@@ -17,6 +17,12 @@
 </div>
 <hr />
 
+## Installation
+
+1. [Download]() latest release
+2. Open chrome and activate the developer mode from `chrome://extensions/`
+3. Click on `Pack extension` button and choose the address of extension root directory.
+
 ## Todo
 
 - [ ] Disabled when text is not Persian

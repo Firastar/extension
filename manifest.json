@@ -103,11 +103,11 @@
         ],
         "js": [
             "plugins/webcomponents-sd-ce.js",
-            "dist/content.js"
+            "./content.js"
         ],
         "match_about_blank": true,
         "matches": [
-            "\u003Call_urls>"
+            "<all_urls>"
         ],
         "run_at": "document_end"
     }
