@@ -28,12 +28,13 @@
         "start": "webpack --watch",
         "build": "webpack",
         "test": "jest",
-        "pack": "cd dist && crx pack -p ./key.pem -o ./firastar-chrome-extension.crx",
+        "pack:chrome": "cd dist && crx pack -p ./key.pem -o ./firastar-chrome-extension.crx",
         "lint": "eslint \"src/**/*.{js,json}\" --max-warnings=0",
         "lint:fix": "npm run lint -- --fix"
     },
     "dependencies": {
         "@firastar/firastar-js": "^0.1.2",
+        "@webcomponents/custom-elements": "^1.4.2",
         "crx": "^5.0.1",
         "jquery": "^3.5.1"
     },

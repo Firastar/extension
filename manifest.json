@@ -1,7 +1,7 @@
 {
   "name": "Firastar",
   "version": "0.1.0",
-  "description": "Write your best with Firastar for Chrome.",
+  "description": "Write your best with Firastar for Browser.",
   "content_scripts": [
     {
         "all_frames": true,
@@ -102,8 +102,7 @@
             "*://docs.google.com/document/*"
         ],
         "js": [
-            "plugins/webcomponents-sd-ce.js",
-            "./content.js"
+            "content.min.js"
         ],
         "match_about_blank": true,
         "matches": [

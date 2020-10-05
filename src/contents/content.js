@@ -1,3 +1,4 @@
+import '@webcomponents/custom-elements';
 import styles from './styles';
 import logo from './logo';
 import { generateToken } from '../services/randomToken';
@@ -10,13 +11,7 @@ export const DELAY_SHOWS_UP_TIME = 2000;
 
 window.customElements.define(
   'firastar-extension',
-  class extends HTMLElement {
-    constructor() {
-      super();
-      // eslint-disable-next-line no-unused-vars
-      var shadow = this.attachShadow({ mode: 'open' });
-    }
-  },
+  class extends HTMLElement {},
 );
 
 window.onload = function () {
@@ -34,13 +29,24 @@ function addingIconToNewTextarea(selector = $('textarea:visible')) {
       $(`<firastar-extension id="${token}"></firastar-extension>`).insertAfter(
         $(el),
       );
-      const shadow = $(document.getElementById(token).shadowRoot);
+      const shadow = $(
+        document.getElementById(token).attachShadow({
+          mode: 'open',
+        }),
+      );
+
       shadow.append($(styles));
 
       $(div).css($(el).position());
       $(div).css('width', $(el).width());
       $(div).css('height', $(el).height());
+
       $(div).css('padding', $(el).css('padding'));
+      $(div).css('paddingRight', $(el).css('paddingRight'));
+      $(div).css('paddingLeft', $(el).css('paddingLeft'));
+      $(div).css('paddingTop', $(el).css('paddingTop'));
+      $(div).css('paddingBottom', $(el).css('paddingBottom'));
+
       $(div).css('margin', $(el).css('margin'));
 
       $(div).append(`<div class="btn">${logo}</div>`);

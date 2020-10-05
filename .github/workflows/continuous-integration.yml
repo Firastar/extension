@@ -46,8 +46,8 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: Pack
-      run: npm run pack
+    - name: Pack Chrome
+      run: npm run pack:chrome
 
     - name: Archive production
       uses: actions/upload-artifact@v2

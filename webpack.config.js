@@ -1,3 +1,4 @@
+/* eslint-disable new-cap */
 const path = require('path');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 
@@ -7,7 +8,7 @@ module.exports = {
     content: './src/contents/content.js',
   },
   output: {
-    filename: '[name].js',
+    filename: '[name].min.js',
     path: path.join(__dirname, 'dist'),
   },
   module: {
@@ -36,10 +37,6 @@ module.exports = {
             {
               source: 'images',
               destination: path.join(__dirname, 'dist/images'),
-            },
-            {
-              source: 'plugins',
-              destination: path.join(__dirname, 'dist/plugins'),
             },
           ],
         },
