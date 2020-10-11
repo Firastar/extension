@@ -22,6 +22,9 @@
     1. [Download](https://github.com/Firastar/firastar-extension/releases) latest release bundle
     2. Open chrome and activate the developer mode from `chrome://extensions/`
     3. Click on `Load unpacked` button and choose the address of extension root directory.
+- Firefox
+    1. Available on [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/firastar/)
+    
 
 ## Todo
 
