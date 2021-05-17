@@ -17,24 +17,18 @@
 </div>
 <hr />
 
-## Installation
-- Chrome
-    1. [Download](https://github.com/Firastar/firastar-extension/releases) latest release bundle
-    2. Open chrome and activate the developer mode from `chrome://extensions/`
-    3. Click on `Load unpacked` button and choose the address of extension root directory.
-- Firefox
-    1. Available on [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/firastar/)
-    
+## Install
+[link-chrome]: https://chrome.google.com/webstore/detail/firastar/mjdhioapnehcmilfadnoaolkmpidehdb/ 'Version published on Chrome Web Store'
+[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/firastar-app/ 'Version published on Mozilla Add-ons'
+
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">][link-chrome] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/mjdhioapnehcmilfadnoaolkmpidehdb.svg?label=%20">][link-chrome] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox_256x256.png" width="48" alt="Firefox" valign="middle">][link-firefox] [<img valign="middle" src="https://img.shields.io/amo/v/firastar-app.svg?label=%20">][link-firefox]
 
 ## Todo
 
-- [ ] Release on Chrome Web Store 
+- [ ] Change position on change textarea size
 - [ ] Disabled when text is not Persian
 - [ ] Disabled when text no need edition
 - [ ] Settings popup
-
-## Known Issues
-- Extension Warning Popup on Windows ([Solution](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher))
 
 ## Contributing
 
