@@ -7,10 +7,11 @@
 
 
 ![CI/CD](https://github.com/Firastar/firastar-extension/workflows/Continuous%20Integration/badge.svg)
-[![codecov](https://codecov.io/gh/Firastar/firastar-extension/branch/master/graph/badge.svg)](https://codecov.io/gh/Firastar/firastar-extension)
-[![CodeFactor](https://www.codefactor.io/repository/github/Firastar/firastar-extension/badge)](https://www.codefactor.io/repository/github/Firastar/firastar-extension)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Firastar/firastar-extension/blob/master/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/Firastar/firastar-extension/compare) 
+[![codecov](https://codecov.io/gh/Firastar/extension/branch/master/graph/badge.svg?token=sbaZrwWawV)](https://codecov.io/gh/Firastar/extension)
+[![CodeFactor](https://www.codefactor.io/repository/github/firastar/extension/badge)](https://www.codefactor.io/repository/github/firastar/extension)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Firastar/extension/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/Firastar/extension/compare) 
+[![GitHub contributors](https://img.shields.io/github/contributors/Firastar/extension.svg)](https://GitHub.com/Firastar/extension/contributors/)
 
 <img align="center" src="./images/demo.gif" />
 
